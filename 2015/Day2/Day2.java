@@ -65,8 +65,11 @@ public class Day2{
                 line = reader.readLine();
             }
 
+            reader.close();
+
         } catch (IOException e){
             e.printStackTrace();
+            
         }
 
         System.out.println("Total Sq Ft of Wrapping Paper Needed: " + runningTotalWrapping + " sqFt");
